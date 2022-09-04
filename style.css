@@ -12,8 +12,8 @@
   --main-color: #ff2a2a;
   --text-color: #191616;
   --bg-color: ;
-  --big-font: 5rem;
-  --h2-font: 2.25rem;
+  --big-font: 3rem;
+  --h2-font: 2rem;
   --p-font: 0;
 }
 /* header */
@@ -53,4 +53,37 @@ header {
 }
 /* header end */
 
-/*  home start */
+/*  banner start */
+.banner {
+    padding: 170px 170px;
+    display: flex;
+    align-items: center;
+}
+.banner-text h1{
+    font-size: var(--big-font);
+    color: var(--main-color);
+}
+.banner-text h2 {
+    font-size: var(--h2-font);
+    color: var(--main-color);
+    margin: 1rem 0 2rem;
+}
+.banner img {
+max-width: 100%;
+width: 700px;
+height: auto;
+position: relative;
+left: 200px;
+}
+.btn {
+    display: inline-block;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: .4rem;
+}
+.btn:hover {
+    transform: scale(1.2) translateY(10px);
+    transition: .4s;
+}
+/* banner end */
