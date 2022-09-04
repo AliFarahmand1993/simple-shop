@@ -94,47 +94,67 @@ header {
 }
 /* banner end */
 
-/* Top sellers section */
+/* Top sellers section  start*/
 .top-sellers {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10rem;
 }
 .top-sellers h3 {
-    font-size: var(--h2-font);
-    color: var(--bg-color);
-    position: relative;
-    top: -5rem;
+  font-size: var(--h2-font);
+  color: var(--bg-color);
+  position: relative;
+  top: -5rem;
 }
 .prouduct-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 10rem;
-    text-align: center;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10rem;
+  text-align: center;
 }
-.product{
-    width: 300px;
-    height: 400px;
-    box-shadow: 10px 10px 10px 10px rgb(213, 211, 211);
-    display: inline-block;
+.product {
+  width: 300px;
+  height: 400px;
+  box-shadow: 10px 10px 10px 10px rgb(213, 211, 211);
 }
 .product img {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 .product h5 {
-    font-size: var(--h5-font);
-    color: var(--text-color);
+  font-size: var(--h5-font);
+  color: var(--text-color);
 }
 .product p {
-    font-size: var(--h5-font);
-    color: var(--text-color);
-    margin-top: 1rem;
+  font-size: var(--h5-font);
+  color: var(--text-color);
+  margin-top: 1rem;
 }
 .product:hover {
-border: .2rem solid var(--bg-color);
-transition: 0.2s;
-cursor: pointer;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.2s;
+  cursor: pointer;
+}
+/* Top sellers section end */
+
+/* shop section start */
+.shop h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--h2-font)
+}
+
+/* shop section end */
+.shop{
+margin: 20rem 0;
+}
+.shop h1{
+  margin-top: -10rem;
+  }
+.shop .product {
+  margin: 2rem 0;
 }
