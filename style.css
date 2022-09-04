@@ -9,81 +9,132 @@
   font-family: "Roboto", sans-serif;
 }
 :root {
-  --main-color: #ff2a2a;
   --text-color: #191616;
-  --bg-color: ;
+  --text-color2: #fff;
+  --bg-color: #ff2a2a;
   --big-font: 3rem;
   --h2-font: 2rem;
+  --h5-font: 1.3rem;
   --p-font: 0;
+  height: 2000px;
 }
 /* header */
 header {
   position: fixed;
   width: 100%;
-  top:0;
+  top: 0;
   right: 0;
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px 170px;
+  background-color: var(--bg-color);
 }
 .logo {
-    color: var(--main-color);
-    font-weight: 600;
-    font-size: 2rem;
+  color: var(--text-color2);
+  font-weight: 600;
+  font-size: 2rem;
 }
 .navbar {
-    display: flex;
+  display: flex;
 }
 .navbar a {
-    color: var(--text-color);
-    font-size: 1.2rem;
-    padding: 20px 50px;
-    font-weight: 500;
+  color: var(--text-color2);
+  font-size: 1.2rem;
+  padding: 20px 50px;
+  font-weight: 500;
 }
 .navbar a:hover {
-    color: var(--main-color);
-    transition: .4s;
+  color: var(--bg-color2);
+  transition: 0.4s;
 }
 #menu-icon {
-    font-size: 2rem;
-    cursor: pointer;
-    display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
 }
 /* header end */
 
 /*  banner start */
 .banner {
-    padding: 170px 170px;
-    display: flex;
-    align-items: center;
+  padding: 170px 0;
+  display: flex;
+  align-items: center;
+  margin: 0 10rem;
+  justify-content: space-between;
 }
-.banner-text h1{
-    font-size: var(--big-font);
-    color: var(--main-color);
+.banner-text h1 {
+  font-size: var(--big-font);
+  color: var(--bg-color);
 }
 .banner-text h2 {
-    font-size: var(--h2-font);
-    color: var(--main-color);
-    margin: 1rem 0 2rem;
+  font-size: var(--h2-font);
+  color: var(--bg-color);
+  margin: 1rem 0 2rem;
 }
 .banner img {
-max-width: 100%;
-width: 700px;
-height: auto;
-position: relative;
-left: 200px;
+  max-width: 100%;
+  width: 700px;
+  height: auto;
+
+  float: right;
 }
 .btn {
-    display: inline-block;
-    background-color: var(--main-color);
-    color: #fff;
-    padding: 1rem 2.5rem;
-    border-radius: .4rem;
+  display: inline-block;
+  background-color: var(--bg-color);
+  color: var(--text-color2);
+  padding: 1rem 2.5rem;
+  border-radius: 0.4rem;
 }
 .btn:hover {
-    transform: scale(1.2) translateY(10px);
-    transition: .4s;
+  transform: scale(1.2) translateY(10px);
+  transition: 0.4s;
+  color: var(--text-color);
 }
 /* banner end */
+
+/* Top sellers section */
+.top-sellers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10rem;
+}
+.top-sellers h3 {
+    font-size: var(--h2-font);
+    color: var(--bg-color);
+    position: relative;
+    top: -5rem;
+}
+.prouduct-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10rem;
+    text-align: center;
+}
+.product{
+    width: 300px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 10px rgb(213, 211, 211);
+    display: inline-block;
+}
+.product img {
+    width: 300px;
+    height: 300px;
+}
+.product h5 {
+    font-size: var(--h5-font);
+    color: var(--text-color);
+}
+.product p {
+    font-size: var(--h5-font);
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+.product:hover {
+border: .2rem solid var(--bg-color);
+transition: 0.2s;
+cursor: pointer;
+}
