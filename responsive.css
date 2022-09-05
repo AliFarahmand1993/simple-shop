@@ -10,10 +10,10 @@ font-size: 1rem;
 }
 
 @media (max-width: 768px) {
-    header {
-        padding-left: 30px;
-      }
-      .navbar a {
+  header {
+    margin: 0;
+  }
+  .navbar a {
         display: none;
       }
       .banner {
@@ -25,11 +25,16 @@ font-size: 1rem;
       .banner img {
         display: none;
       }
-}
-
+      .about-us {
+        padding: 1rem;
+        margin: 2rem 0;
+      }
+       .top-sellers h3 {
+      top: 0rem;
+      }
 @media (max-width: 450px) {
-    header {
-        padding-left: 30px;
+      header {
+        margin: 0;
       }
       .navbar a {
         display: none;
@@ -43,4 +48,11 @@ font-size: 1rem;
       .banner img {
         display: none;
       }
+      .about-us {
+        padding: 1rem;
+        margin-top: 2rem 0;
+      }
+       .top-sellers h2 {
+         top: 0rem;
+      } 
 }
