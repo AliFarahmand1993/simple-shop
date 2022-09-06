@@ -9,6 +9,8 @@ font-size: 1rem;
   font-size: 1rem;
 }
 
+}
+
 @media (max-width: 768px) {
   header {
     margin: 0;
@@ -52,7 +54,17 @@ font-size: 1rem;
    .box2 iframe {
     width: 100%;
    }
-   
+   .link-footer a {
+    padding: 1rem;
+   }
+   .copyright_footer p {
+    padding-top: -1rem;
+    padding-left: 1rem;
+   }
+   .top-sellers h3 {
+    top: -4rem;
+  }
+}
 @media (max-width: 450px) {
       header {
         margin: 0;
@@ -101,6 +113,10 @@ font-size: 1rem;
      }
      .copyright_footer p {
       padding-top: -1rem;
-      padding-left: 1rem;
+      justify-content: center;
+      align-items: center;
+     }
+     .top-sellers h3 {
+      top: -4rem;
      }
 }

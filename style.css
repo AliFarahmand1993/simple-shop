@@ -15,7 +15,6 @@
   --big-font: 3rem;
   --h2-font: 2rem;
   --h5-font: 1.3rem;
-  --p-font: 0;
 }
 /* header */
 header {
@@ -164,6 +163,7 @@ header {
   margin: 10rem 10rem;
   padding: 2rem;
   border: 0.02rem solid #ff2a2a;
+  border-radius: 1rem;
 }
 .content-box {
   justify-content: flex-start;
