@@ -101,7 +101,8 @@ header {
   align-items: center;
   margin: 0 10rem;
 }
-.top-sellers h2, .top-sellers h3 {
+.top-sellers h2,
+.top-sellers h3 {
   font-size: var(--h2-font);
   color: var(--bg-color);
   position: relative;
@@ -109,7 +110,7 @@ header {
 }
 .product-section {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin: 0 10rem;
@@ -141,19 +142,19 @@ header {
 /* Top sellers section end */
 
 /* shop section start */
-.shop{
+.shop {
   margin: 20rem 0;
-  }
-.shop h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: var(--h2-font);
-    color: var(--bg-color)
 }
-.shop h1{
+.shop h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--h2-font);
+  color: var(--bg-color);
+}
+.shop h1 {
   margin-top: -10rem;
-  }
+}
 .shop .product {
   margin: 2rem 0;
 }
@@ -163,18 +164,17 @@ header {
 .about-us {
   margin: 10rem 10rem;
   padding: 2rem;
-  border: .02rem  solid #ff2a2a  ;
+  border: 0.02rem solid #ff2a2a;
 }
 .content-box {
-justify-content: flex-start;
+  justify-content: flex-start;
 }
-.content-box p{
-margin-top: .6rem;
-
+.content-box p {
+  margin-top: 0.6rem;
 }
-.content-box h1{
-font-size: var(--h2-font);
-color: var(--bg-color);
+.content-box h1 {
+  font-size: var(--h2-font);
+  color: var(--bg-color);
 }
 .content-box span {
   font-weight: 600;
@@ -182,7 +182,7 @@ color: var(--bg-color);
 
 .products-section {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin: 0 10rem;
@@ -215,24 +215,23 @@ color: var(--bg-color);
 /* about page end */
 
 /* contact us page start */
-.contact-us h1{
+.contact-us h1 {
   position: relative;
   top: 2rem;
   text-align: center;
   font-size: var(--h2-font);
   color: #ff2a2a;
+  margin: 10rem 10rem;
 }
-/* contact us page end */
-.contact-us h1 {
-margin: 10rem 10rem;
-}
+/* table start */
+
 .content-table {
   border-collapse: collapse;
   margin: -4rem auto;
   font-size: 0.9em;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 10px 10px 10px 10px rgb(213, 211, 211);
 }
 
 .content-table thead tr {
@@ -263,3 +262,52 @@ margin: 10rem 10rem;
   font-weight: bold;
   color: var(--bg-color);
 }
+/* table end */
+.google_addreess h2 {
+  position: relative;
+  top: rem;
+  text-align: center;
+  font-size: var(--h2-font);
+  color: #ff2a2a;
+  margin: 8rem 10rem -6rem 10rem;
+}
+.location-box {
+  margin-top: 8rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box1 {
+  padding: 1rem;
+  width: 500px;
+  height: 450px;
+  border: 0.03rem solid var(--bg-color);
+  border-radius: 0.6rem;
+  box-shadow: 10px 10px 10px 10px rgb(213, 211, 211);
+}
+.box1 p{
+padding: 1rem;
+}
+.box1 ul li {
+  padding-top: 1rem;
+}
+.horizontal-line {
+  display: inline;
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  background-color: var(--bg-color);
+}
+.box2 {
+  width: 500px;
+  height: 450px;
+  border: 0.03rem solid var(--bg-color);
+  box-shadow: 10px 10px 10px 10px rgb(213, 211, 211);
+}
+.box2 iframe {
+  width: 500px;
+  height: 450px;
+  border-radius: 0.6rem;
+}
+/* contact us page end */
