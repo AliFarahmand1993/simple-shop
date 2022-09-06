@@ -35,6 +35,23 @@ font-size: 1rem;
       .contact-us h1 {
        margin: 6rem 0 8rem 0;
     }
+    .google_addreess h2{
+      margin: 12rem 0 8rem 0;
+   }
+   .box1 {
+    width: 100%;
+    margin-top: 2rem;
+    height: auto;
+   }
+   .box2 {
+    width: 100%;
+   }
+   .location-box {
+    flex-wrap: wrap-reverse;
+   }
+   .box2 iframe {
+    width: 100%;
+   }
    
 @media (max-width: 450px) {
       header {
@@ -62,5 +79,21 @@ font-size: 1rem;
       .contact-us h1 {
         margin: 6rem 0 8rem 0;
      }
-    
+     .google_addreess h2{
+      margin: 12rem 0 8rem 0;
+   }
+     .box1 {
+      width: 100%;
+      margin-top: 2rem;
+      height: auto;
+     }
+     .box2 {
+      width: 100%;
+     }
+     .location-box {
+      flex-wrap: wrap-reverse;
+     }
+     .box2 iframe {
+      width: 100%;
+     }
 }
