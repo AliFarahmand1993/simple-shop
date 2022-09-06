@@ -96,4 +96,11 @@ font-size: 1rem;
      .box2 iframe {
       width: 100%;
      }
+     .link-footer a {
+      padding: 1rem;
+     }
+     .copyright_footer p {
+      padding-top: -1rem;
+      padding-left: 1rem;
+     }
 }
