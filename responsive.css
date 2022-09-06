@@ -32,6 +32,10 @@ font-size: 1rem;
        .top-sellers h3 {
       top: 0rem;
       }
+      .contact-us h1 {
+       margin: 6rem 0 8rem 0;
+    }
+   
 @media (max-width: 450px) {
       header {
         margin: 0;
@@ -55,4 +59,8 @@ font-size: 1rem;
        .top-sellers h2 {
          top: 0rem;
       } 
+      .contact-us h1 {
+        margin: 6rem 0 8rem 0;
+     }
+    
 }
